@@ -5,7 +5,7 @@ def say_hello(name: str):
 def main():
     name = input('Пожалуйста введите ваше имя: ')
     say_hello()
-    input('Нажмите Enter для входа ...')
+    input('Press Enter для входа ..')
 
 
 if __name__ == '__main__':
