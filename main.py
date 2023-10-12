@@ -1,11 +1,11 @@
 def say_hello(name: str):
-    print(f'Hello {name}')
+    print(f'Привет {name}')
 
 
 def main():
-    name = input('Enter your name: ')
+    name = input('Пожалуйста введите ваше имя: ')
     say_hello()
-    input('Press Enter to continue ...')
+    input('Нажмите Enter для входа ...')
 
 
 if __name__ == '__main__':
