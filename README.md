@@ -8,7 +8,7 @@ import csv
 def password_validator(length: int = 8, uppercase: int = 1, lowercase: int = 1, special_chars: int = 1):
 """
 Декоратор для валидации паролей.
-Параметры:
+Параметрыр:
 length (int): Минимальная длина пароля (по умолчанию 8).
 uppercase (int): Минимальное количество букв верхнего регистра (по умолчанию 1).
 lowercase (int): Минимальное количество букв нижнего регистра (по умолчанию 1).
